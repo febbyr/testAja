@@ -31,7 +31,7 @@ class MenuController extends GetxController {
       case AuthenticationViewPageDisplayName:
         return _customIcon(Icons.exit_to_app, itemName);
       default:
-        return _customIcon(Icons.exit_to_app, itemName);
+        return _customIcon(Icons.trending_up, itemName);
     }
   }
 
